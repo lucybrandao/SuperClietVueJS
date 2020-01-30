@@ -5,18 +5,20 @@
       color="purple darken-2"
       dark
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-spacer></v-spacer>
+
+      <v-tooldbar-title class="headline thin">
+        KEEP VIEW
+      </v-tooldbar-title>
 
       <v-spacer></v-spacer>
-      
-      <v-btn target="_blank" text>
-        <span class="mr-2">My Notes</span>
-      </v-btn>
+
     </v-app-bar>
 
     <v-content>
       <NotesList/>
     </v-content>
+
   </v-app>
 </template>
 
